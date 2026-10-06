@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>BarberCRM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="logo">Barber<span>CRM</span></div>
+		<div class="pills" id="langs"></div>
+		<button class="ic" id="bell" title="Reminders">🔔<span class="badge" id="bellN">0</span></button>
+		<button class="ic" id="theme" aria-label="Theme">☀</button>
+	</header>
+	<nav id="nav"></nav>
+	<main>
+		<section id="v-dash"></section>
+		<section id="v-clients" class="hide"></section>
+		<section id="v-rem" class="hide"></section>
+	</main>
+	<dialog id="dlg"></dialog>
+	<div class="toast" id="toast"></div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
